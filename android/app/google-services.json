@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "730858613228",
+    "project_id": "mobx-reminders-ef43c",
+    "storage_bucket": "mobx-reminders-ef43c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730858613228:android:b24bbe8316f2ff456278c9",
+        "android_client_info": {
+          "package_name": "dev.rutudhvaj.mobx_reminders"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7EBNADevGTDexTUO2qnMeiTZmqf9i3AU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
