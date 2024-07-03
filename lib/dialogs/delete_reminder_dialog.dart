@@ -10,7 +10,7 @@ Future<bool> showDeleteReminderDialog(BuildContext context) async {
         'Are you sure you want to delete this reminder? You cannot undo this action!',
     optionsBuilder: () => {
       'Cancel': false,
-      'Delete account': true,
+      'Delete Reminder': true,
     },
   ).then(
     (value) => value ?? false,

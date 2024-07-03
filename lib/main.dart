@@ -7,6 +7,8 @@ import 'package:provider/provider.dart';
 import 'dialogs/show_auth_error.dart';
 import 'firebase_options.dart';
 import 'loading/loading_screen.dart';
+import 'provider/auth_provider.dart';
+import 'provider/reminders_provider.dart';
 import 'state/app_state.dart';
 import 'views/login_view.dart';
 import 'views/register_view.dart';
@@ -19,7 +21,10 @@ void main() async {
   );
   runApp(
     Provider(
-      create: (context) => AppState()..initialize(),
+      create: (context) => AppState(
+        authProvider: FirebaseAuthProvider(),
+        remindersProvider: FirestoreRemindersProvider(),
+      )..initialize(),
       child: const MyApp(),
     ),
   );
